@@ -1,29 +1,30 @@
 # Testes automatizados com Cypress - Básico
 
-👋 Seja bem-vindo(a)!
+Projeto criado para o curso básico de Cypress da Talking about Testing do Walmir Filho.
 
-É muito bom tê-lo(a) aqui. Tenho certeza que você vai adorar este curso. ❤️
+## Pré-requisitos
 
-## O que você vai aprender
+É necessário possuir o Node.js e npm instalados para rodar este projeto.
 
-Durante o curso de testes automatizados com Cypress (básico), você vai aprender:
+Eu usei as versões `v18.15.0` e `9.5.0` do Node.js ae npm, respectivamente. Sugiro usar as mesmas versões ou anteriores.
 
-- Como configurar um projeto Cypress do zero
-- Como visitar páginas locais e remotas
-- Como lidar com os elementos mais comuns encontrados em aplicações web
-- Como testar _upload_ de arquivos
-- Como realizar as mais diversas verificações de resultados esperados
-- Como criar comandos customizados
-- Como lidar com links que abrem em outra aba do navegador
-- Como rodar testes simulando as dimensões de um dispositivo móvel
-- Como resolver os mesmos problemas de diferentes formas, conhecendo a [API do Cypress](https://docs.cypress.io/api/table-of-contents)
-- Como executar os testes em um _pipeline_ de integração contínua sempre que mudanças ocorrerem no código da aplicação (ou dos testes)
-- Como criar uma documentação mínima para seu projeto de testes automatizados
+## Instalação
 
-## Vamos começar?
+Rode `npm install` para instalar as dependências.
 
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
+## Testes
 
-___
+É possível rodar os testes simulando um viewport desktop ou mobile.
 
-Este é mais um curso da [**Escola Talking About Testing**](https://udemy.com/user/walmyr).
+- Desktop
+Rodar `npm test` para rodar o teste no modo headless.
+
+Ou, rodar `npm run cy:open` para abrir o Cypress no modo interativo.
+
+- Mobile
+Rodar `npm test:mobile` para rodar o teste no modo headless.
+
+Ou, rodar `npm run cy:open:mobile` para abrir o Cypress no modo interativo.
+
+
+Esse projeto foi criado com 💚 por [Walmyr](https://walmyr.dev).
